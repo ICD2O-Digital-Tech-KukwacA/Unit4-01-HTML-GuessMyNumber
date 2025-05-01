@@ -1,9 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
   <head>
-    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Guessing Game"/>
+    <meta name="keywords" content="immaculata, icd2o"/>
+    <meta name="author" content="Kukwac"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" sizes="180x190" href="">
+    <title>Guess The Number</title>
   </head>
   <body>
-    <p>Paragraph</p>
+    <script src="./js/script.js"></script>
+    <form action="#">
+      <h1>Guess the Number</h1>
+      <div class="mdl-textfield mdl-js-textfield">
+        <input type="number" id="userGuess" step="any" placeholder="Enter a number">
+      </div>
+    </form>
+        <!-- Calculate Button -->
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="guessGame()">
+          Display Result
+        </button>
+        <div id="answers">
+          <div id="result"></div>
+        </div>
   </body>
 </html>

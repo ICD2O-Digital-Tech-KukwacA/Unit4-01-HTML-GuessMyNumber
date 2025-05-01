@@ -1,4 +1,17 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+/* Created by: Kukwac
+* Created on: May 2025
+* This CSS file defines the style for index.html
+* Unit4-01-HTML-GuessMyNumber
+* This file is used to style the HTML elements in the Guess My Number game.
 */
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    background-color: rgb(224, 2, 253);
+    color: hsl(78, 100%, 50%);
+    padding: 40px;
+    text-align: auto;
+}
